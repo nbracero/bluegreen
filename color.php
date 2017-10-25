@@ -4,10 +4,10 @@ $deployment = getenv("COLOR");
 $deployment = getenv("COLOR");
 if ( $deployment == 'red') {
   $color = 'red';
-} elseif ($deployment == 'green')  {
-  $color = 'green';
+} elseif ($deployment == 'orange')  {
+  $color = 'orange';
 } else {
-  $color = 'blue';
+  $color = 'yellow';
 }
 
 $data = [ 'color' => $deployment ];
